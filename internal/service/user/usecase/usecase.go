@@ -3,8 +3,8 @@ package userusecase
 import (
 	"context"
 
-	"project/internal/entity"
-	"project/internal/service/user"
+	"github.com/fprotimaru/go-template/internal/entity"
+	"github.com/fprotimaru/go-template/internal/service/user"
 )
 
 type UseCase struct {

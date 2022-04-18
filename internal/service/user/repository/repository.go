@@ -3,7 +3,7 @@ package userrepository
 import (
 	"context"
 
-	"project/internal/entity"
+	"github.com/fprotimaru/go-template/internal/entity"
 
 	"github.com/uptrace/bun"
 )

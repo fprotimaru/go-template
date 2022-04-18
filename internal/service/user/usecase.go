@@ -3,7 +3,7 @@ package userservice
 import (
 	"context"
 
-	"project/internal/entity"
+	"github.com/fprotimaru/go-template/internal/entity"
 )
 
 type UseCase interface {

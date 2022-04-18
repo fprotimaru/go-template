@@ -1,4 +1,4 @@
-module project
+module github.com/fprotimaru/go-template
 
 go 1.18
 

@@ -3,10 +3,11 @@ package cmd
 import (
 	"log"
 
-	"project/internal/config"
-	"project/internal/service/auth/usecase"
+	"github.com/fprotimaru/go-template/internal/config"
+	"github.com/fprotimaru/go-template/internal/service/auth/usecase"
 
 	"github.com/gofiber/fiber/v2"
+
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	jsoniter "github.com/json-iterator/go"

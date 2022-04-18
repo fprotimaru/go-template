@@ -7,11 +7,11 @@ import (
 	"log"
 	"syscall"
 
-	"project/internal/config"
-	"project/internal/entity"
-	"project/internal/service/auth/usecase"
-	"project/internal/service/user/repository"
-	"project/internal/service/user/usecase"
+	"github.com/fprotimaru/go-template/internal/config"
+	"github.com/fprotimaru/go-template/internal/entity"
+	"github.com/fprotimaru/go-template/internal/service/auth/usecase"
+	"github.com/fprotimaru/go-template/internal/service/user/repository"
+	"github.com/fprotimaru/go-template/internal/service/user/usecase"
 
 	"github.com/spf13/cobra"
 	"github.com/uptrace/bun"

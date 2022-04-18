@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"smartio/cmd"
+	"github.com/fprotimaru/go-template/cmd"
 )
 
 func main() {
