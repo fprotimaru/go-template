@@ -7,11 +7,11 @@ import (
 	"log"
 	"syscall"
 
-	"smartio/internal/config"
-	"smartio/internal/entity"
-	"smartio/internal/service/auth/usecase"
-	"smartio/internal/service/user/repository"
-	"smartio/internal/service/user/usecase"
+	"project/internal/config"
+	"project/internal/entity"
+	"project/internal/service/auth/usecase"
+	"project/internal/service/user/repository"
+	"project/internal/service/user/usecase"
 
 	"github.com/spf13/cobra"
 	"github.com/uptrace/bun"

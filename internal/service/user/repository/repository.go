@@ -3,7 +3,7 @@ package userrepository
 import (
 	"context"
 
-	"smartio/internal/entity"
+	"project/internal/entity"
 
 	"github.com/uptrace/bun"
 )

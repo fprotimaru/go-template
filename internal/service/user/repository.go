@@ -3,7 +3,7 @@ package userservice
 import (
 	"context"
 
-	"smartio/internal/entity"
+	"project/internal/entity"
 )
 
 type Repository interface {

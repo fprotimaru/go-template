@@ -3,8 +3,8 @@ package userusecase
 import (
 	"context"
 
-	"smartio/internal/entity"
-	"smartio/internal/service/user"
+	"project/internal/entity"
+	"project/internal/service/user"
 )
 
 type UseCase struct {

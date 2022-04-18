@@ -3,8 +3,8 @@ package cmd
 import (
 	"log"
 
-	"smartio/internal/config"
-	authusecase "smartio/internal/service/auth/usecase"
+	"project/internal/config"
+	"project/internal/service/auth/usecase"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
